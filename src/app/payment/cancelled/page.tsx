@@ -16,13 +16,13 @@ export default function CancelledRoute() {
             <h3 className="text-lg leading-6 font-medium">Payment Failed</h3>
             <div className="mt-2">
               <p className="text-sm text-muted-foreground">
-                No worries, you won't be charged please try again
+                No worries, you wont be charged please try again
               </p>
             </div>
             <div className="mt-5 sm:mt-6 w-full">
-                <Button className="w-full" asChild>
-                    <Link href="/">Go back to Dashboard</Link>
-                </Button>
+              <Button className="w-full" asChild>
+                <Link href="/">Go back to Dashboard</Link>
+              </Button>
             </div>
           </div>
         </div>
